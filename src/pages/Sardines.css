@@ -1,0 +1,63 @@
+.Sardines{
+    object-fit: cover; 
+    background-color: wheat;
+    color: white;
+    padding: calc(1vh);
+    text-transform: uppercase;
+
+}
+.Sardines-bg{
+    max-height: calc(90vh);
+    object-fit: contain;
+    height: 300px;
+
+}
+.Wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh);
+    flex-wrap: wrap;
+
+}
+.Sardines-left {
+flex: 4;
+  }
+  
+  .Sardines-middle {
+    flex: 4;
+
+  }
+  .Sardines-right {
+    flex: 4;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .Sardines-left, .Sardines-right{
+      animation: App-logo-spin infinite 4s linear;
+    }
+  }
+  .background-transparent{
+    font-size: 18px;
+    background-color: rgba(1,1,1,.3);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .Nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .Nav a{
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+  }
+  .Nav a:hover{
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+    border-radius: 10px;
+  }

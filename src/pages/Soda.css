@@ -1,0 +1,63 @@
+.Soda{
+    object-fit: cover; 
+    background-color: oldlace;
+    color: white;
+    padding: calc(1vh);
+    text-transform: uppercase;
+
+}
+.Soda-bg{
+    max-height: calc(90vh);
+    object-fit: contain;
+    height: 430px;
+
+}
+.Wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh);
+    
+
+}
+.Soda-left {
+flex: 4;
+  }
+  
+  .Soda-middle {
+    flex: 4;
+
+  }
+  .Soda-right {
+    flex: 4;
+  }
+  .background-transparent{
+    font-size: 18px;
+    background-color: rgba(1,1,1,.3);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .Soda-left, .Soda-right{
+      animation: App-logo-spin infinite 4s linear;
+    }
+  }
+  .Nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .Nav a{
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+  }
+  .Nav a:hover{
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+    border-radius: 10px;
+  }
